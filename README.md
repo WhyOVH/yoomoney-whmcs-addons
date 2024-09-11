@@ -1,1 +1,14 @@
-# yoomoney-whmcs-addons
+# Модуль оплаты через YooMoney для WHMCS
+Разработчик: WhyOVH
+Описание: Это аддон для интеграции системы оплаты YooMoney в WHMCS. С его помощью вы сможете легко принимать платежи через YooMoney начиная от 2 рублей.
+
+Особенности:
+Простая установка и настройка.
+Поддержка минимального платежа от 2 рублей.
+Быстрая и удобная интеграция с YooMoney.
+Установка:
+Скачайте и распакуйте архив с аддоном в папку modules/gateways вашего WHMCS.
+В настройках платежных шлюзов WHMCS выберите "YooMoney" и настройте параметры.
+Укажите следующий URL для отправки уведомлений от YooMoney: https://ваш-сайт.ru/modules/gateways/yoomoney/callback.php
+Ссылка на API для интеграции с YooMoney. https://yoomoney.ru/transfer/myservices/http-notification
+Обратная связь: Нашли баг? Сообщите нам через Discord: whywtf_ovh.
